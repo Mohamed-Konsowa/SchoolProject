@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|solutionrelative:schoolproject.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SchoolProject.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T00:05:49.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
