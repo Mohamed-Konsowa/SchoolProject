@@ -1,6 +1,11 @@
 
 using Microsoft.EntityFrameworkCore;
-using SchoolProject.Infrastructure.Data;
+using SchoolProject.Core;
+using SchoolProject.Infrastructure;
+using SchoolProject.Infrastructure.Abstracts;
+using SchoolProject.Infrastructure.Context;
+using SchoolProject.Infrastructure.Repositories;
+using SchoolProject.Service;
 
 namespace SchoolProject.Api
 {
@@ -22,6 +27,12 @@ namespace SchoolProject.Api
                 options.UseSqlServer
                     (builder.Configuration.GetConnectionString("DefaultConnection"));
             });
+
+            #region Dependancy Injection
+            builder.Services.AddInfrastructureDependencies()
+                .AddServiceDependencies()
+                .AddCoreDependencies();
+            #endregion
 
             var app = builder.Build();
 

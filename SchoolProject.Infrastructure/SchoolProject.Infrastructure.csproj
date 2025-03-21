@@ -22,8 +22,4 @@
     <ProjectReference Include="..\SchoolProject.Data\SchoolProject.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
 </Project>
