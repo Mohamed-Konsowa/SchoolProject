@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
+using SchoolProject.Core.Bases;
 using SchoolProject.Core.Features.Students.Queries.Models;
 using SchoolProject.Core.Features.Students.Queries.Results;
 using SchoolProject.Data.Entities;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace SchoolProject.Core.Features.Students.Queries.Handlers
 {
-    public class StudentHandler : IRequestHandler<GetStudentListQuery, List<GetStudentListResponse>>
+    public class StudentHandler : ResponseHandler, IRequestHandler<GetStudentListQuery, Response<List<GetStudentListResponse>>>
     {
         #region Fields
         private readonly IStudentService _studentService;
@@ -26,11 +27,11 @@ namespace SchoolProject.Core.Features.Students.Queries.Handlers
         }
         #endregion 
         #region Handle Functions
-        public async Task<List<GetStudentListResponse>> Handle(GetStudentListQuery request, CancellationToken cancellationToken)
+        public async Task<Response<List<GetStudentListResponse>>> Handle(GetStudentListQuery request, CancellationToken cancellationToken)
         {
             var studentList = await _studentService.GetStudentsListAsync();
             var studentListMapper = _mapper.Map<List<GetStudentListResponse>>(studentList);
-            return studentListMapper;
+            return Success(studentListMapper);
         }
         #endregion
         
