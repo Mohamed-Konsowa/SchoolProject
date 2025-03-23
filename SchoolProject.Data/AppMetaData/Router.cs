@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace SchoolProject.Data.AppMetaData
 {
     public static class Router
@@ -19,6 +14,7 @@ namespace SchoolProject.Data.AppMetaData
             public const string Prefix = Rule + "Student";
             public const string List = Prefix + "/List";
             public const string GetById = Prefix + SignleRoute;
+            public const string Create = Prefix + "/Create";
         }
     }
 }

@@ -2,11 +2,6 @@
 using SchoolProject.Data.Entities;
 using SchoolProject.Infrastructure.Abstracts;
 using SchoolProject.Service.Abstracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SchoolProject.Service.Implementations
 {
@@ -35,6 +30,17 @@ namespace SchoolProject.Service.Implementations
                                                   .Where(s => s.StudID == id)
                                                   .FirstOrDefaultAsync();
             return student;
+        }
+
+        public async Task<string> AddAsync(Student student)
+        {
+            //
+            var studentResult = _studentRepository.GetTableNoTracking()
+                                                  .Where(s => s.Name == student.Name)
+                                                  .FirstOrDefault();
+            if (studentResult != null) return "Exist";
+            await _studentRepository.AddAsync(student);
+            return "Success";
         }
 
         #endregion

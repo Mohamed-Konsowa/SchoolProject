@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Net;
 
 namespace SchoolProject.Core.Bases
 {
@@ -11,7 +6,6 @@ namespace SchoolProject.Core.Bases
     {
         public Response()
         {
-
         }
         public Response(T data, string message = null)
         {
