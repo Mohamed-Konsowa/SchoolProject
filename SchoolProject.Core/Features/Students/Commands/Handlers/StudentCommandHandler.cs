@@ -34,7 +34,7 @@ namespace SchoolProject.Core.Features.Students.Commands.Handlers
             var studentMapper = _mapper.Map<Student>(request);
             var result = await _studentService.AddAsync(studentMapper);
             if (result == "Exist") return UnprocessableEntity<string>();
-            else if (result == "Success") return Success<string>("Add successfully");
+            else if (result == "Success") return Created<string>("Add successfully");
             else return BadRequest<string>();
         }
         #endregion

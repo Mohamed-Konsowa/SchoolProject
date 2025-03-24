@@ -43,6 +43,14 @@ namespace SchoolProject.Service.Implementations
             return "Success";
         }
 
+        public async Task<bool> IsNameExistsAsync(string name)
+        {
+            var student = _studentRepository.GetTableNoTracking()
+                .Where(s => s.Name.Equals(name)).FirstOrDefault();
+ 
+            return (student is not null);
+        }
+
         #endregion
 
     }

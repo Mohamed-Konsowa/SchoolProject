@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E853CAA5-515E-401E-85D2-8B52BA6C1590}|SchoolProject.Api\\SchoolProject.Api.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E853CAA5-515E-401E-85D2-8B52BA6C1590}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\students\\commands\\validators\\addstudentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\students\\commands\\validators\\addstudentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E853CAA5-515E-401E-85D2-8B52BA6C1590}|SchoolProject.Api\\SchoolProject.Api.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.api\\base\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E853CAA5-515E-401E-85D2-8B52BA6C1590}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\base\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\behaviores\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\behaviores\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\students\\commands\\handlers\\studentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\students\\commands\\handlers\\studentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A689A1E-73BF-4740-BA09-2C62EBDD917A}|SchoolProject.Service\\SchoolProject.Service.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.service\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A689A1E-73BF-4740-BA09-2C62EBDD917A}|SchoolProject.Service\\SchoolProject.Service.csproj|solutionrelative:schoolproject.service\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\middleware\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\middleware\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A689A1E-73BF-4740-BA09-2C62EBDD917A}|SchoolProject.Service\\SchoolProject.Service.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.service\\abstracts\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A689A1E-73BF-4740-BA09-2C62EBDD917A}|SchoolProject.Service\\SchoolProject.Service.csproj|solutionrelative:schoolproject.service\\abstracts\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78124682-D0F0-46E8-B253-831CBA7CFD99}|SchoolProject.Data\\SchoolProject.Data.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.data\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78124682-D0F0-46E8-B253-831CBA7CFD99}|SchoolProject.Data\\SchoolProject.Data.csproj|solutionrelative:schoolproject.data\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\students\\commands\\models\\addstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\students\\commands\\models\\addstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E853CAA5-515E-401E-85D2-8B52BA6C1590}|SchoolProject.Api\\SchoolProject.Api.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E853CAA5-515E-401E-85D2-8B52BA6C1590}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,37 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppControllerBase.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\Base\\AppControllerBase.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Api\\Base\\AppControllerBase.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\Base\\AppControllerBase.cs",
-              "RelativeToolTip": "SchoolProject.Api\\Base\\AppControllerBase.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T22:08:18.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Api\\Controllers\\StudentController.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "SchoolProject.Api\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T20:36:46.843Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
@@ -78,58 +48,62 @@
               "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\Students\\Commands\\Handlers\\StudentCommandHandler.cs",
               "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Commands\\Handlers\\StudentCommandHandler.cs",
               "RelativeToolTip": "SchoolProject.Core\\Features\\Students\\Commands\\Handlers\\StudentCommandHandler.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:45:14.466Z",
+              "WhenOpened": "2025-03-24T22:41:36.207Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddStudentCommand.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Commands\\Models\\AddStudentCommand.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\Students\\Commands\\Models\\AddStudentCommand.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Commands\\Models\\AddStudentCommand.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Features\\Students\\Commands\\Models\\AddStudentCommand.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:39:16.637Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Data\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Data\\Entities\\Student.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Data\\Entities\\Student.cs",
-              "RelativeToolTip": "SchoolProject.Data\\Entities\\Student.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T20:09:29.141Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Service\\Abstracts\\IStudentService.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Service\\Abstracts\\IStudentService.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Service\\Abstracts\\IStudentService.cs",
-              "RelativeToolTip": "SchoolProject.Service\\Abstracts\\IStudentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Api\\Program.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\Program.cs",
+              "RelativeToolTip": "SchoolProject.Api\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwB8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:17:49.807Z"
+              "WhenOpened": "2025-03-24T22:17:53.399Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Service\\Implementations\\StudentService.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Service\\Implementations\\StudentService.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Service\\Implementations\\StudentService.cs",
-              "RelativeToolTip": "SchoolProject.Service\\Implementations\\StudentService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAIA4wCsAAAAJAAAAAAAAAA==",
+              "Title": "ErrorHandlerMiddleware.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Middleware\\ErrorHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Middleware\\ErrorHandlerMiddleware.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Middleware\\ErrorHandlerMiddleware.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Middleware\\ErrorHandlerMiddleware.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAtwBwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T15:18:27.743Z"
+              "WhenOpened": "2025-03-24T22:01:55.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Behaviores\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Behaviores\\ValidationBehavior.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Behaviores\\ValidationBehavior.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Behaviores\\ValidationBehavior.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAawBAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T21:28:01.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddStudentValidator.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Commands\\Validators\\AddStudentValidator.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\Students\\Commands\\Validators\\AddStudentValidator.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Commands\\Validators\\AddStudentValidator.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Features\\Students\\Commands\\Validators\\AddStudentValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T21:16:26.959Z",
+              "EditorCaption": ""
             }
           ]
         }
