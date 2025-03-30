@@ -38,7 +38,7 @@ namespace SchoolProject.Core.Features.Students.Queries.Handlers
 
         public async Task<Response<GetSingleStudentResponse>> Handle(GetStudentByIdQuery request, CancellationToken cancellationToken)
         {
-            var student = await _studentService.GetStudentByIdAsync(request.Id);
+            var student = await _studentService.GetStudentByIDWithIncludeAsync(request.Id);
             if (student == null) return NotFound<GetSingleStudentResponse>();
             var studentMapper = _mapper.Map<GetSingleStudentResponse>(student);
             return Success(studentMapper);
