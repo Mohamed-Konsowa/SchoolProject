@@ -3,19 +3,17 @@ using MediatR;
 using SchoolProject.Core.Bases;
 using SchoolProject.Core.Features.Students.Queries.Models;
 using SchoolProject.Core.Features.Students.Queries.Results;
+using SchoolProject.Core.Wrappers;
 using SchoolProject.Data.Entities;
 using SchoolProject.Service.Abstracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Linq.Expressions;
 
 namespace SchoolProject.Core.Features.Students.Queries.Handlers
 {
     public class StudentQueryHandler : ResponseHandler
                                      , IRequestHandler<GetStudentListQuery, Response<List<GetStudentListResponse>>>
                                      , IRequestHandler<GetStudentByIdQuery, Response<GetSingleStudentResponse>>
+                                     , IRequestHandler<GetStudentPagenatedListQuery, PaginatedResult<GetStudentPaginatedListResponse>>
     {
         #region Fields
         private readonly IStudentService _studentService;
@@ -42,6 +40,17 @@ namespace SchoolProject.Core.Features.Students.Queries.Handlers
             if (student == null) return NotFound<GetSingleStudentResponse>();
             var studentMapper = _mapper.Map<GetSingleStudentResponse>(student);
             return Success(studentMapper);
+        }
+
+        public async Task<PaginatedResult<GetStudentPaginatedListResponse>> Handle(GetStudentPagenatedListQuery request, CancellationToken cancellationToken)
+        {
+            Expression<Func<Student, GetStudentPaginatedListResponse>> expression = 
+                (s) => new GetStudentPaginatedListResponse(s.StudID, s.Name, s.Address, s.Department.DName);
+            //var queryableList = _studentService.GetStudentsQueryable();
+            var filteredQuery = _studentService.FilterStudentPaginatedQueryable(request.OrderBy, request.Search);
+            var paginated = await filteredQuery.Select(expression).ToPaginatedListAsync(request.PageNumber, request.PageSize);
+
+            return paginated;
         }
         #endregion
 

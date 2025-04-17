@@ -1,9 +1,5 @@
 ﻿using SchoolProject.Data.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SchoolProject.Data.Helpers;
 
 namespace SchoolProject.Service.Abstracts
 {
@@ -17,5 +13,7 @@ namespace SchoolProject.Service.Abstracts
         public Task<bool> IsNameExistExcludeSelf(string name, int id);
         public Task<string> EditAsync(Student student);
         public Task<string> DeleteAsync(Student student);
+        public IQueryable<Student> GetStudentsQueryable();
+        public IQueryable<Student> FilterStudentPaginatedQueryable(SudentOrderingEnum orderEnum, string search);
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SchoolProject.Data.Entities;
+using SchoolProject.Data.Helpers;
 using SchoolProject.Infrastructure.Abstracts;
 using SchoolProject.Service.Abstracts;
 
@@ -85,6 +86,36 @@ namespace SchoolProject.Service.Implementations
         {
             var student = await _studentRepository.GetByIdAsync(id);
             return student;
+        }
+
+        public IQueryable<Student> GetStudentsQueryable()
+        {
+            return _studentRepository.GetTableNoTracking().Include(s => s.Department).AsQueryable();
+        }
+
+        public IQueryable<Student> FilterStudentPaginatedQueryable(SudentOrderingEnum orderEnum, string search)
+        {
+            var queryable = _studentRepository.GetTableNoTracking().Include(s => s.Department).AsQueryable();
+            if(search is not null)
+            {
+                queryable = queryable.Where(s => s.Name.Contains(search) || s.Address.Contains(search));
+            }
+            switch (orderEnum)
+            {
+                case SudentOrderingEnum.StudId:
+                    queryable = queryable.OrderBy(s => s.StudID);
+                    break;
+                case SudentOrderingEnum.Name:
+                    queryable = queryable.OrderBy(s => s.Name);
+                    break;
+                case SudentOrderingEnum.Address:
+                    queryable = queryable.OrderBy(s => s.Address);
+                    break;
+                case SudentOrderingEnum.DepartmentName:
+                    queryable = queryable.OrderBy(s => s.Department.DName);
+                    break;
+            }
+            return queryable;
         }
         #endregion
 

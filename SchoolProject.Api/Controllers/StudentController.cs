@@ -18,6 +18,14 @@ namespace SchoolProject.Api.Controllers
         }
 
         [HttpGet]
+        [Route(Router.Student.Paginated)]
+        public async Task<IActionResult> GetStudentPaginatedList([FromQuery] GetStudentPagenatedListQuery query)
+        {
+            var response = await Mediator.Send(query);
+            return Ok(response);
+        }
+
+        [HttpGet]
         [Route(Router.Student.GetById)]
         public async Task<IActionResult> GetStudentById([FromRoute] int id)
         {
