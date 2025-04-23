@@ -1,9 +1,12 @@
+using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using SchoolProject.Core;
 using SchoolProject.Core.Middleware;
 using SchoolProject.Infrastructure;
 using SchoolProject.Infrastructure.Context;
 using SchoolProject.Service;
+using System.Globalization;
 
 namespace SchoolProject.Api
 {
@@ -32,6 +35,28 @@ namespace SchoolProject.Api
                 .AddCoreDependencies();
             #endregion
 
+            #region Localization
+            builder.Services.AddControllersWithViews();
+            builder.Services.AddLocalization(opt =>
+            {
+                opt.ResourcesPath = ""; //Resources
+            });
+
+            builder.Services.Configure<RequestLocalizationOptions>(options =>
+            {
+                List<CultureInfo> supportedcultures = new List<CultureInfo>
+                {
+                    new CultureInfo("en-US"),
+                    new CultureInfo("de-DE"),
+                    new CultureInfo("fr-FR"),
+                    new CultureInfo("ar-EG")
+                };
+                options.DefaultRequestCulture = new RequestCulture("en-US");
+                options.SupportedCultures = supportedcultures;
+                options.SupportedUICultures = supportedcultures;
+            });
+            #endregion
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -40,6 +65,12 @@ namespace SchoolProject.Api
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+            #region Localization Middleware
+            var options = app.Services.GetService<IOptions<RequestLocalizationOptions>>();
+            app.UseRequestLocalization(options.Value);
+            #endregion
+
             app.UseMiddleware<ErrorHandlerMiddleware>();
 
             app.UseHttpsRedirection();
