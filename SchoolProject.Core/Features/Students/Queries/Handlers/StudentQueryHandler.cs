@@ -9,7 +9,6 @@ using SchoolProject.Core.Wrappers;
 using SchoolProject.Data.Entities;
 using SchoolProject.Service.Abstracts;
 using System.Linq.Expressions;
-using static Azure.Core.HttpHeader;
 
 namespace SchoolProject.Core.Features.Students.Queries.Handlers
 {
@@ -36,7 +35,9 @@ namespace SchoolProject.Core.Features.Students.Queries.Handlers
         {
             var studentList = await _studentService.GetStudentsListAsync();
             var studentListMapper = _mapper.Map<List<GetStudentListResponse>>(studentList);
-            return Success(studentListMapper);
+            var result = Success(studentListMapper);
+            result.Meta = new { Count = studentListMapper.Count() };
+            return result;
         }
 
         public async Task<Response<GetSingleStudentResponse>> Handle(GetStudentByIdQuery request, CancellationToken cancellationToken)
@@ -54,7 +55,7 @@ namespace SchoolProject.Core.Features.Students.Queries.Handlers
             //var queryableList = _studentService.GetStudentsQueryable();
             var filteredQuery = _studentService.FilterStudentPaginatedQueryable(request.OrderBy, request.Search);
             var paginated = await filteredQuery.Select(expression).ToPaginatedListAsync(request.PageNumber, request.PageSize);
-
+            paginated.Meta = new { Count = paginated.Data.Count()};
             return paginated;
         }
         #endregion
