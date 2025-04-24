@@ -9,6 +9,7 @@ using SchoolProject.Core.Wrappers;
 using SchoolProject.Data.Entities;
 using SchoolProject.Service.Abstracts;
 using System.Linq.Expressions;
+using static Azure.Core.HttpHeader;
 
 namespace SchoolProject.Core.Features.Students.Queries.Handlers
 {
@@ -49,7 +50,7 @@ namespace SchoolProject.Core.Features.Students.Queries.Handlers
         public async Task<PaginatedResult<GetStudentPaginatedListResponse>> Handle(GetStudentPagenatedListQuery request, CancellationToken cancellationToken)
         {
             Expression<Func<Student, GetStudentPaginatedListResponse>> expression = 
-                (s) => new GetStudentPaginatedListResponse(s.StudID, s.Name, s.Address, s.Department.DName);
+                (s) => new GetStudentPaginatedListResponse(s.StudID, s.Localize(s.NameAr, s.NameEn), s.Address, s.Department.Localize(s.Department.DNameAr, s.Department.DNameEn));
             //var queryableList = _studentService.GetStudentsQueryable();
             var filteredQuery = _studentService.FilterStudentPaginatedQueryable(request.OrderBy, request.Search);
             var paginated = await filteredQuery.Select(expression).ToPaginatedListAsync(request.PageNumber, request.PageSize);

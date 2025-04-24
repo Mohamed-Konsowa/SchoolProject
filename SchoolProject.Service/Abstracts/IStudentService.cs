@@ -9,8 +9,10 @@ namespace SchoolProject.Service.Abstracts
         Task<Student> GetStudentByIDWithIncludeAsync(int id);
         public Task<Student> GetByIDAsync(int id);
         Task<string> AddAsync(Student student);
-        Task<bool> IsNameExistsAsync(string name);
-        public Task<bool> IsNameExistExcludeSelf(string name, int id);
+        Task<bool> IsNameArExistsAsync(string name);
+        Task<bool> IsNameEnExistsAsync(string name);
+        public Task<bool> IsNameArExistExcludeSelf(string nameAr, int id);
+        public Task<bool> IsNameEnExistExcludeSelf(string nameEn, int id);
         public Task<string> EditAsync(Student student);
         public Task<string> DeleteAsync(Student student);
         public IQueryable<Student> GetStudentsQueryable();

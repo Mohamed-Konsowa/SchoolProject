@@ -26,7 +26,12 @@ namespace SchoolProject.Core.Features.Students.Commands.Validators
         #region Actions
         public void ApplyValidationRules()
         {
-            RuleFor(s => s.Name)
+            RuleFor(s => s.NameAr)
+                .NotEmpty().WithMessage(_localizer[SharedResourcesKeys.NotEmpty])
+                .NotNull().WithMessage(_localizer[SharedResourcesKeys.Required])
+                .MaximumLength(10).WithMessage(_localizer[SharedResourcesKeys.MaxLengthis100]);
+            
+            RuleFor(s => s.NameEn)
                 .NotEmpty().WithMessage(_localizer[SharedResourcesKeys.NotEmpty])
                 .NotNull().WithMessage(_localizer[SharedResourcesKeys.Required])
                 .MaximumLength(10).WithMessage(_localizer[SharedResourcesKeys.MaxLengthis100]);
@@ -39,8 +44,11 @@ namespace SchoolProject.Core.Features.Students.Commands.Validators
 
         public void ApplyCustomValidationRules()
         {
-            RuleFor(s => s.Name)
-                .MustAsync(async (Key, CancellationToken) => !await _studentService.IsNameExistsAsync(Key))
+            RuleFor(s => s.NameAr)
+                .MustAsync(async (Key, CancellationToken) => !await _studentService.IsNameArExistsAsync(Key))
+                .WithMessage(_localizer[SharedResourcesKeys.IsExist]);
+            RuleFor(s => s.NameEn)
+                .MustAsync(async (Key, CancellationToken) => !await _studentService.IsNameEnExistsAsync(Key))
                 .WithMessage(_localizer[SharedResourcesKeys.IsExist]);
         }
         #endregion
