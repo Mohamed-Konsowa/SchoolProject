@@ -45,11 +45,11 @@ namespace SchoolProject.Core.Features.Students.Commands.Validators
         public void ApplyCustomValidationRules()
         {
             RuleFor(s => s.NameAr)
-                .MustAsync(async (Key, CancellationToken) => !await _studentService.IsNameArExistsAsync(Key))
+                .MustAsync(async (model, Key, CancellationToken) => !await _studentService.IsNameArExistExcludeSelf(Key, model.Id))
                 .WithMessage(_localizer[SharedResourcesKeys.IsExist]);
 
             RuleFor(s => s.NameEn)
-                .MustAsync(async (Key, CancellationToken) => !await _studentService.IsNameEnExistsAsync(Key))
+                .MustAsync(async (model, Key, CancellationToken) => !await _studentService.IsNameEnExistExcludeSelf(Key, model.Id))
                 .WithMessage(_localizer[SharedResourcesKeys.IsExist]);
         }
         #endregion

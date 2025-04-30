@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SchoolProject.Data.Entities;
+using System.Reflection;
 
 namespace SchoolProject.Infrastructure.Context
 {
@@ -18,26 +19,9 @@ namespace SchoolProject.Infrastructure.Context
         public DbSet<StudentSubject> studentSubjects { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<DepartmetSubject>()
-                .HasKey(ds => new { ds.SubID, ds.DID });
-            modelBuilder.Entity<Ins_Subject>()
-                .HasKey(Is => new { Is.SubId, Is.InsId});
-            modelBuilder.Entity<StudentSubject>()
-                .HasKey(ss => new { ss.SubID, ss.StudID });
-
-            modelBuilder.Entity<Instructor>()
-                .HasOne(i => i.SuperVisor)
-                .WithMany(i => i.SupervisedInstructors)
-                .HasForeignKey(i => i.SuperVisorId)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<Department>()
-                .HasOne(d => d.Manager)
-                .WithOne(i => i.DepartmentManaged)
-                .HasForeignKey<Department>(x => x.InsManagerId)
-                .OnDelete(DeleteBehavior.Restrict);
-
+        {                
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            
             base.OnModelCreating(modelBuilder);
         }
     }
