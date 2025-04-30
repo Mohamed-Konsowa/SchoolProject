@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SchoolProject.Infrastructure.Context;
 
@@ -11,9 +12,11 @@ using SchoolProject.Infrastructure.Context;
 namespace SchoolProject.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250429205003_config-data-annotation-add-Instructor")]
+    partial class configdataannotationaddInstructor
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -31,10 +34,12 @@ namespace SchoolProject.Infrastructure.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DID"));
 
                     b.Property<string>("DNameAr")
+                        .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("DNameEn")
+                        .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
@@ -110,7 +115,7 @@ namespace SchoolProject.Infrastructure.Migrations
                     b.Property<decimal>("Salary")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("SuperVisorId")
+                    b.Property<int>("SuperVisorId")
                         .HasColumnType("int");
 
                     b.HasKey("InsId");
@@ -131,6 +136,7 @@ namespace SchoolProject.Infrastructure.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudID"));
 
                     b.Property<string>("Address")
+                        .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
@@ -138,14 +144,17 @@ namespace SchoolProject.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("NameAr")
+                        .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("NameEn")
+                        .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("Phone")
+                        .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
@@ -164,9 +173,6 @@ namespace SchoolProject.Infrastructure.Migrations
                     b.Property<int>("StudID")
                         .HasColumnType("int");
 
-                    b.Property<decimal?>("Grade")
-                        .HasColumnType("decimal(18,2)");
-
                     b.HasKey("SubID", "StudID");
 
                     b.HasIndex("StudID");
@@ -182,15 +188,13 @@ namespace SchoolProject.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SubID"));
 
-                    b.Property<DateTime?>("Period")
+                    b.Property<DateTime>("Period")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("SubjectNameAr")
+                    b.Property<string>("SubjectName")
+                        .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
-
-                    b.Property<string>("SubjectNameEn")
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("SubID");
 
@@ -256,7 +260,8 @@ namespace SchoolProject.Infrastructure.Migrations
                     b.HasOne("SchoolProject.Data.Entities.Instructor", "SuperVisor")
                         .WithMany("SupervisedInstructors")
                         .HasForeignKey("SuperVisorId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("Department");
 
@@ -302,7 +307,8 @@ namespace SchoolProject.Infrastructure.Migrations
 
             modelBuilder.Entity("SchoolProject.Data.Entities.Instructor", b =>
                 {
-                    b.Navigation("DepartmentManaged");
+                    b.Navigation("DepartmentManaged")
+                        .IsRequired();
 
                     b.Navigation("Ins_Subjects");
 
