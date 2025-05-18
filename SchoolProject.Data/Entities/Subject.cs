@@ -18,7 +18,7 @@ namespace SchoolProject.Data.Entities
         [StringLength(500)]
         public string? SubjectNameAr { get; set; }
         public string? SubjectNameEn { get; set; }
-        public DateTime? Period { get; set; }
+        public int? Period { get; set; }
 
         [InverseProperty("Subject")]
         public virtual ICollection<StudentSubject> StudentsSubjects { get; set; }

@@ -3,8 +3,8 @@ using SchoolProject.Infrastructure.InfrastructureBase;
 
 namespace SchoolProject.Infrastructure.Abstracts
 {
-    public interface IStudentRepository : IGenericRepositoryAsync<Student>
+    public interface IDepartmentRepository : IGenericRepositoryAsync<Department>
     {
-        Task<List<Student>> GetStudentsListAsync();
+        
     }
 }
