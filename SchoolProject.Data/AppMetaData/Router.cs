@@ -23,7 +23,7 @@ namespace SchoolProject.Data.AppMetaData
         public static class Department
         {
             public const string Prefix = Rule + "Department";
-            public const string GetById = Prefix + SignleRoute;
+            public const string GetById = Prefix + "/Id";
         }
     }
 }

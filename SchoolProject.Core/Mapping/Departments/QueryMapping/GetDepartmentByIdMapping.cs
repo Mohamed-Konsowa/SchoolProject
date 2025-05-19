@@ -11,14 +11,9 @@ namespace SchoolProject.Core.Mapping.Departments
                 .ForMember(g => g.Id, opt => opt.MapFrom(d => d.DID))
                 .ForMember(g => g.Name, opt => opt.MapFrom(d => d.Localize( d.DNameAr, d.DNameEn)))
                 .ForMember(g => g.ManagerName, opt => opt.MapFrom(d => d.Manager.Localize(d.Manager.NameAr, d.Manager.NameEn)))
-                .ForMember(g => g.StudentList, opt => opt.MapFrom(d => d.Students))
                 .ForMember(g => g.SubjectList, opt => opt.MapFrom(d => d.DepartmentSubjects))
                 .ForMember(g => g.InstructorList, opt => opt.MapFrom(d => d.Instructors));
             
-            CreateMap<Student, StudentResponse>()
-                .ForMember(sr => sr.Id, opt => opt.MapFrom(s => s.StudID))
-                .ForMember(sr => sr.Name, opt => opt.MapFrom(s => s.Localize(s.NameAr, s.NameEn)));
-
             CreateMap<DepartmetSubject, SubjectResponse>()
                 .ForMember(sr => sr.Id, opt => opt.MapFrom(d => d.DID))
                 .ForMember(sr => sr.Name, opt => opt.MapFrom(d => d.Localize(d.Subject.SubjectNameAr, d.Subject.SubjectNameEn)));
