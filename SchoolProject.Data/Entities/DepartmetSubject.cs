@@ -1,9 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using SchoolProject.Data.Commons;
 
 namespace SchoolProject.Data.Entities
 {
-    public class DepartmetSubject
+    public class DepartmetSubject : GeneralLocalizableEntity
     {
         [Key]
         public int DID { get; set; }

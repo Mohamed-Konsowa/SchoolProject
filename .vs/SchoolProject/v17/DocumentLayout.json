@@ -3,48 +3,16 @@
   "WorkspaceRootPath": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.infrastructure\\abstracts\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|solutionrelative:schoolproject.infrastructure\\abstracts\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\resources\\sharedresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\resources\\sharedresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|solutionrelative:schoolproject.infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E853CAA5-515E-401E-85D2-8B52BA6C1590}|SchoolProject.Api\\SchoolProject.Api.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E853CAA5-515E-401E-85D2-8B52BA6C1590}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.infrastructure\\repositories\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|solutionrelative:schoolproject.infrastructure\\repositories\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.infrastructure\\moduleinfrastructuredependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|solutionrelative:schoolproject.infrastructure\\moduleinfrastructuredependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.infrastructure\\repositories\\instructorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|solutionrelative:schoolproject.infrastructure\\repositories\\instructorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.infrastructure\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|solutionrelative:schoolproject.infrastructure\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.infrastructure\\abstracts\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|solutionrelative:schoolproject.infrastructure\\abstracts\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.infrastructure\\abstracts\\isubjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|solutionrelative:schoolproject.infrastructure\\abstracts\\isubjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.infrastructure\\abstracts\\iinstructorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|solutionrelative:schoolproject.infrastructure\\abstracts\\iinstructorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78124682-D0F0-46E8-B253-831CBA7CFD99}|SchoolProject.Data\\SchoolProject.Data.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.data\\entities\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78124682-D0F0-46E8-B253-831CBA7CFD99}|SchoolProject.Data\\SchoolProject.Data.csproj|solutionrelative:schoolproject.data\\entities\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78124682-D0F0-46E8-B253-831CBA7CFD99}|SchoolProject.Data\\SchoolProject.Data.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.data\\entities\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78124682-D0F0-46E8-B253-831CBA7CFD99}|SchoolProject.Data\\SchoolProject.Data.csproj|solutionrelative:schoolproject.data\\entities\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\department\\queries\\handlers\\departmentqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\department\\queries\\handlers\\departmentqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,156 +22,50 @@
       "DocumentGroups": [
         {
           "DockedHeight": 492,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IStudentRepository.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Abstracts\\IStudentRepository.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastructure\\Abstracts\\IStudentRepository.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Abstracts\\IStudentRepository.cs",
-              "RelativeToolTip": "SchoolProject.Infrastructure\\Abstracts\\IStudentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T00:57:34.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ModuleInfrastructureDependencies.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\ModuleInfrastructureDependencies.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastructure\\ModuleInfrastructureDependencies.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\ModuleInfrastructureDependencies.cs",
-              "RelativeToolTip": "SchoolProject.Infrastructure\\ModuleInfrastructureDependencies.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T00:50:30.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SubjectRepository.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Repositories\\SubjectRepository.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastructure\\Repositories\\SubjectRepository.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Repositories\\SubjectRepository.cs",
-              "RelativeToolTip": "SchoolProject.Infrastructure\\Repositories\\SubjectRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T16:11:57.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InstructorRepository.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Repositories\\InstructorRepository.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastructure\\Repositories\\InstructorRepository.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Repositories\\InstructorRepository.cs",
-              "RelativeToolTip": "SchoolProject.Infrastructure\\Repositories\\InstructorRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvwwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T16:10:25.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DepartmentRepository.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Repositories\\DepartmentRepository.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastructure\\Repositories\\DepartmentRepository.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Repositories\\DepartmentRepository.cs",
-              "RelativeToolTip": "SchoolProject.Infrastructure\\Repositories\\DepartmentRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAIwAwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T16:05:35.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IDepartmentRepository.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Abstracts\\IDepartmentRepository.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastructure\\Abstracts\\IDepartmentRepository.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Abstracts\\IDepartmentRepository.cs",
-              "RelativeToolTip": "SchoolProject.Infrastructure\\Abstracts\\IDepartmentRepository.cs",
+              "Title": "SharedResources.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Resources\\SharedResources.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Resources\\SharedResources.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Resources\\SharedResources.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Resources\\SharedResources.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T15:54:45.078Z",
+              "WhenOpened": "2025-05-19T00:48:35.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Repositories\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastructure\\Repositories\\StudentRepository.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Repositories\\StudentRepository.cs",
-              "RelativeToolTip": "SchoolProject.Infrastructure\\Repositories\\StudentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T16:14:31.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ISubjectRepository.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Abstracts\\ISubjectRepository.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastructure\\Abstracts\\ISubjectRepository.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Abstracts\\ISubjectRepository.cs",
-              "RelativeToolTip": "SchoolProject.Infrastructure\\Abstracts\\ISubjectRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T15:55:46.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IInstructorRepository.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Abstracts\\IInstructorRepository.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastructure\\Abstracts\\IInstructorRepository.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Abstracts\\IInstructorRepository.cs",
-              "RelativeToolTip": "SchoolProject.Infrastructure\\Abstracts\\IInstructorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T15:56:35.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Subject.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Data\\Entities\\Subject.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Data\\Entities\\Subject.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Data\\Entities\\Subject.cs",
-              "RelativeToolTip": "SchoolProject.Data\\Entities\\Subject.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T15:27:02.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Instructor.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Data\\Entities\\Instructor.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Data\\Entities\\Instructor.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Data\\Entities\\Instructor.cs",
-              "RelativeToolTip": "SchoolProject.Data\\Entities\\Instructor.cs",
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Api\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "SchoolProject.Api\\Controllers\\DepartmentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T15:26:49.58Z"
+              "WhenOpened": "2025-05-19T00:21:32.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartmentQueryHandler.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Department\\Queries\\Handlers\\DepartmentQueryHandler.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\Department\\Queries\\Handlers\\DepartmentQueryHandler.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Department\\Queries\\Handlers\\DepartmentQueryHandler.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Features\\Department\\Queries\\Handlers\\DepartmentQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T03:34:32.184Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -213,21 +75,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 38,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3822e751-eb69-4b0e-b301-595a9e4c74d5}"
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

@@ -19,5 +19,11 @@ namespace SchoolProject.Data.AppMetaData
             public const string Edit = Prefix + "/Edit";
             public const string Delete = Prefix + "/{id}";
         }
+
+        public static class Department
+        {
+            public const string Prefix = Rule + "Department";
+            public const string GetById = Prefix + SignleRoute;
+        }
     }
 }
