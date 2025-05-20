@@ -10,13 +10,17 @@ namespace SchoolProject.Core.Features.Students.Commands.Validators
     {
         #region Fields
         private readonly IStudentService _studentService;
+        private readonly IDepartmentService _departmentService;
         private readonly IStringLocalizer<SharedResources> _localizer;
         #endregion
 
         #region Constructors
-        public AddStudentValidator(IStudentService studentService, IStringLocalizer<SharedResources> stringLocalizer)
+        public AddStudentValidator(IStudentService studentService
+            , IDepartmentService departmentService
+            , IStringLocalizer<SharedResources> stringLocalizer)
         {
             _studentService = studentService;
+            _departmentService = departmentService;
             _localizer = stringLocalizer;
             ApplyValidationRules();
             ApplyCustomValidationRules();
@@ -40,6 +44,10 @@ namespace SchoolProject.Core.Features.Students.Commands.Validators
                 .NotEmpty().WithMessage(_localizer[SharedResourcesKeys.NotEmpty])
                 .NotNull().WithMessage(_localizer[SharedResourcesKeys.Required])
                 .MaximumLength(10).WithMessage(_localizer[SharedResourcesKeys.MaxLengthis100]);
+
+            RuleFor(s => s.DepartmentId)
+                .NotEmpty().WithMessage(_localizer[SharedResourcesKeys.NotEmpty])
+                .NotNull().WithMessage(_localizer[SharedResourcesKeys.Required]);
         }
 
         public void ApplyCustomValidationRules()
@@ -47,9 +55,14 @@ namespace SchoolProject.Core.Features.Students.Commands.Validators
             RuleFor(s => s.NameAr)
                 .MustAsync(async (Key, CancellationToken) => !await _studentService.IsNameArExistsAsync(Key))
                 .WithMessage(_localizer[SharedResourcesKeys.IsExist]);
+            
             RuleFor(s => s.NameEn)
                 .MustAsync(async (Key, CancellationToken) => !await _studentService.IsNameEnExistsAsync(Key))
                 .WithMessage(_localizer[SharedResourcesKeys.IsExist]);
+
+            RuleFor(s => s.DepartmentId)
+                .MustAsync(async (Key, CancellationToken) => await _departmentService.IsDepartmentIdExistsAsync(Key))
+                .WithMessage(_localizer[SharedResourcesKeys.IsNotExist]);
         }
         #endregion
     }
