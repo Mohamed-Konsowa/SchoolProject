@@ -57,6 +57,19 @@ namespace SchoolProject.Api
             });
             #endregion
 
+            #region CORS
+            var CORS = "_cors";
+            builder.Services.AddCors(Options =>
+            {
+                Options.AddPolicy(CORS, policy =>
+                {
+                    policy.AllowAnyOrigin();
+                    policy.AllowAnyHeader();
+                    policy.AllowAnyMethod();
+                });
+            });
+            #endregion
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -74,6 +87,8 @@ namespace SchoolProject.Api
             app.UseMiddleware<ErrorHandlerMiddleware>();
 
             app.UseHttpsRedirection();
+
+            app.UseCors(CORS);
 
             app.UseAuthorization();
 
