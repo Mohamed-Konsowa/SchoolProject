@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\students\\queries\\results\\getstudentpaginatedlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\students\\queries\\results\\getstudentpaginatedlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E853CAA5-515E-401E-85D2-8B52BA6C1590}|SchoolProject.Api\\SchoolProject.Api.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.api\\serviceregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E853CAA5-515E-401E-85D2-8B52BA6C1590}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\serviceregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\students\\queries\\handlers\\studentqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\students\\queries\\handlers\\studentqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E853CAA5-515E-401E-85D2-8B52BA6C1590}|SchoolProject.Api\\SchoolProject.Api.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E853CAA5-515E-401E-85D2-8B52BA6C1590}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\students\\queries\\models\\getstudentpagenatedlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\students\\queries\\models\\getstudentpagenatedlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.infrastructure\\serviceregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|solutionrelative:schoolproject.infrastructure\\serviceregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\students\\commands\\validators\\addstudentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\students\\commands\\validators\\addstudentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705C2FF8-C1FE-4369-B4E5-E76D4CA053B4}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|solutionrelative:schoolproject.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,78 +25,88 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 492,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 92,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetStudentPaginatedListResponse.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Queries\\Results\\GetStudentPaginatedListResponse.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\Students\\Queries\\Results\\GetStudentPaginatedListResponse.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Queries\\Results\\GetStudentPaginatedListResponse.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Features\\Students\\Queries\\Results\\GetStudentPaginatedListResponse.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T07:52:22.113Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentQueryHandler.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Queries\\Handlers\\StudentQueryHandler.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\Students\\Queries\\Handlers\\StudentQueryHandler.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Queries\\Handlers\\StudentQueryHandler.cs*",
-              "RelativeToolTip": "SchoolProject.Core\\Features\\Students\\Queries\\Handlers\\StudentQueryHandler.cs*",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAYwDoAAABTAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ServiceRegisteration.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\ServiceRegisteration.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Api\\ServiceRegisteration.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\ServiceRegisteration.cs",
+              "RelativeToolTip": "SchoolProject.Api\\ServiceRegisteration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T07:41:33.38Z",
+              "WhenOpened": "2025-06-18T21:16:34.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Api\\Program.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\Program.cs",
+              "RelativeToolTip": "SchoolProject.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T23:41:33.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GetStudentPagenatedListQuery.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Queries\\Models\\GetStudentPagenatedListQuery.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\Students\\Queries\\Models\\GetStudentPagenatedListQuery.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Queries\\Models\\GetStudentPagenatedListQuery.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Features\\Students\\Queries\\Models\\GetStudentPagenatedListQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ServiceRegisteration.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\ServiceRegisteration.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Infrastructure\\ServiceRegisteration.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\ServiceRegisteration.cs",
+              "RelativeToolTip": "SchoolProject.Infrastructure\\ServiceRegisteration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T07:41:26.138Z",
+              "WhenOpened": "2025-06-17T23:39:24.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AddStudentValidator.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Commands\\Validators\\AddStudentValidator.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\Students\\Commands\\Validators\\AddStudentValidator.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Commands\\Validators\\AddStudentValidator.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Features\\Students\\Commands\\Validators\\AddStudentValidator.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAD4vzUAAAAJAAAAAAAAAA==",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SchoolProject.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T05:28:55.122Z",
+              "WhenOpened": "2025-06-17T00:40:37.477Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 44,
+          "DockedHeight": 678,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 6,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

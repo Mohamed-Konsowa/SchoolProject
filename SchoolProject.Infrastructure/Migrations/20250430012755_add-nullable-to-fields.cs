@@ -15,13 +15,13 @@ namespace SchoolProject.Infrastructure.Migrations
                 name: "SubjectName",
                 table: "subjects");
 
-            migrationBuilder.AlterColumn<DateTime>(
-                name: "Period",
-                table: "subjects",
-                type: "datetime2",
-                nullable: true,
-                oldClrType: typeof(DateTime),
-                oldType: "datetime2");
+            //migrationBuilder.AlterColumn<DateTime>(
+            //    name: "Period",
+            //    table: "subjects",
+            //    type: "datetime2",
+            //    nullable: true,
+            //    oldClrType: typeof(DateTime),
+            //    oldType: "datetime2");
 
             migrationBuilder.AddColumn<string>(
                 name: "SubjectNameAr",
@@ -126,15 +126,15 @@ namespace SchoolProject.Infrastructure.Migrations
                 name: "Grade",
                 table: "studentSubjects");
 
-            migrationBuilder.AlterColumn<DateTime>(
-                name: "Period",
-                table: "subjects",
-                type: "datetime2",
-                nullable: false,
-                defaultValue: new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                oldClrType: typeof(DateTime),
-                oldType: "datetime2",
-                oldNullable: true);
+            //migrationBuilder.AlterColumn<DateTime>(
+            //    name: "Period",
+            //    table: "subjects",
+            //    type: "datetime2",
+            //    nullable: false,
+            //    defaultValue: new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+            //    oldClrType: typeof(DateTime),
+            //    oldType: "datetime2",
+            //    oldNullable: true);
 
             migrationBuilder.AddColumn<string>(
                 name: "SubjectName",
