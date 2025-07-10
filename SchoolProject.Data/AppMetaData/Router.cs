@@ -25,5 +25,11 @@ namespace SchoolProject.Data.AppMetaData
             public const string Prefix = Rule + "Department";
             public const string GetById = Prefix + "/Id";
         }
-    }
+		public static class ApplicationUser
+		{
+			public const string Prefix = Rule + "User";
+			public const string Create = Prefix + "/Create";
+		}
+		
+	}
 }
