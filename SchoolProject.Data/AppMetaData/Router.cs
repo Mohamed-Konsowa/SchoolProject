@@ -28,7 +28,9 @@ namespace SchoolProject.Data.AppMetaData
 		public static class ApplicationUser
 		{
 			public const string Prefix = Rule + "User";
-			public const string Create = Prefix + "/Create";
+			public const string Create = Prefix + "/Create"; 
+			public const string Paginated = Prefix + "/Paginated";
+			public const string GetById = Prefix + SignleRoute;
 		}
 		
 	}
