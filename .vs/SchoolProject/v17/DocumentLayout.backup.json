@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78124682-D0F0-46E8-B253-831CBA7CFD99}|SchoolProject.Data\\SchoolProject.Data.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78124682-D0F0-46E8-B253-831CBA7CFD99}|SchoolProject.Data\\SchoolProject.Data.csproj|solutionrelative:schoolproject.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\applicationuser\\commands\\handlers\\usercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\applicationuser\\commands\\handlers\\usercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E853CAA5-515E-401E-85D2-8B52BA6C1590}|SchoolProject.Api\\SchoolProject.Api.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.api\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E853CAA5-515E-401E-85D2-8B52BA6C1590}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\applicationuser\\queries\\results\\getuserpaginationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\applicationuser\\queries\\results\\getuserpaginationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\applicationuser\\commands\\models\\editusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\applicationuser\\commands\\models\\editusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\mapping\\applicationuser\\queries\\getuserpaginationmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\mapping\\applicationuser\\queries\\getuserpaginationmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\applicationuser\\commands\\validators\\edituservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\applicationuser\\commands\\validators\\edituservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\applicationuser\\queries\\results\\getuserbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\applicationuser\\queries\\results\\getuserbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\applicationuser\\queries\\handlers\\userqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\applicationuser\\queries\\handlers\\userqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\mapping\\applicationuser\\queries\\getuserbyidmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\mapping\\applicationuser\\queries\\getuserbyidmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\mapping\\applicationuser\\applicationuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\mapping\\applicationuser\\applicationuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\applicationuser\\queries\\models\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\applicationuser\\queries\\models\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\features\\applicationuser\\queries\\models\\getuserpaginationquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\applicationuser\\queries\\models\\getuserpaginationquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\backend .net\\clean architecture\\schoolproject\\schoolproject.core\\mapping\\applicationuser\\commands\\editusermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6703C1C5-4FCE-47C7-BE86-68B37C0A6E35}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\mapping\\applicationuser\\commands\\editusermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,8 +29,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 92,
-          "SelectedChildIndex": 5,
+          "DockedHeight": 628,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,138 +38,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetUserByIdResponse.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Results\\GetUserByIdResponse.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Results\\GetUserByIdResponse.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Results\\GetUserByIdResponse.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Results\\GetUserByIdResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ApplicationUserController.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\Controllers\\ApplicationUserController.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Api\\Controllers\\ApplicationUserController.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\Controllers\\ApplicationUserController.cs*",
+              "RelativeToolTip": "SchoolProject.Api\\Controllers\\ApplicationUserController.cs*",
+              "ViewState": "AgIAABYAAACgZWZmZmYnwB8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T14:24:40.073Z",
+              "WhenOpened": "2025-07-28T04:42:33.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditUserMapping.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Mapping\\ApplicationUser\\Commands\\EditUserMapping.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Mapping\\ApplicationUser\\Commands\\EditUserMapping.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Mapping\\ApplicationUser\\Commands\\EditUserMapping.cs*",
+              "RelativeToolTip": "SchoolProject.Core\\Mapping\\ApplicationUser\\Commands\\EditUserMapping.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T04:37:45.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GetUserPaginationMapping.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Mapping\\ApplicationUser\\Queries\\GetUserPaginationMapping.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Mapping\\ApplicationUser\\Queries\\GetUserPaginationMapping.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Mapping\\ApplicationUser\\Queries\\GetUserPaginationMapping.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Mapping\\ApplicationUser\\Queries\\GetUserPaginationMapping.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Title": "EditUserValidator.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Commands\\Validators\\EditUserValidator.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\ApplicationUser\\Commands\\Validators\\EditUserValidator.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Commands\\Validators\\EditUserValidator.cs*",
+              "RelativeToolTip": "SchoolProject.Core\\Features\\ApplicationUser\\Commands\\Validators\\EditUserValidator.cs*",
+              "ViewState": "AgIAABUAAAAgy8zMzMwjwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T12:34:44.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetUserPaginationResponse.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Results\\GetUserPaginationResponse.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Results\\GetUserPaginationResponse.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Results\\GetUserPaginationResponse.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Results\\GetUserPaginationResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T11:40:44.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationUserController.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\Controllers\\ApplicationUserController.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Api\\Controllers\\ApplicationUserController.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Api\\Controllers\\ApplicationUserController.cs",
-              "RelativeToolTip": "SchoolProject.Api\\Controllers\\ApplicationUserController.cs",
-              "ViewState": "AgIAAA8AAACAMTMzMzMPwBgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T12:42:04.179Z",
+              "WhenOpened": "2025-07-28T03:52:09.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Router.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Data\\AppMetaData\\Router.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Data\\AppMetaData\\Router.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Data\\AppMetaData\\Router.cs",
-              "RelativeToolTip": "SchoolProject.Data\\AppMetaData\\Router.cs",
-              "ViewState": "AgIAABQAAACYy8zMzMwqwCAAAAA2AAAAAAAAAA==",
+              "Title": "UserCommandHandler.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs*",
+              "RelativeToolTip": "SchoolProject.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs*",
+              "ViewState": "AgIAADAAAAAAAAAAAAAQwD0AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T12:42:43.657Z",
+              "WhenOpened": "2025-07-28T03:50:35.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserQueryHandler.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Handlers\\UserQueryHandler.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Handlers\\UserQueryHandler.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Handlers\\UserQueryHandler.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Handlers\\UserQueryHandler.cs",
-              "ViewState": "AgIAABYAAAAAyP/////Xvy4AAAADAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EditUserCommand.cs",
+              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Commands\\Models\\EditUserCommand.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\ApplicationUser\\Commands\\Models\\EditUserCommand.cs",
+              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Commands\\Models\\EditUserCommand.cs*",
+              "RelativeToolTip": "SchoolProject.Core\\Features\\ApplicationUser\\Commands\\Models\\EditUserCommand.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T11:52:53.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetUserByIdMapping.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Mapping\\ApplicationUser\\Queries\\GetUserByIdMapping.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Mapping\\ApplicationUser\\Queries\\GetUserByIdMapping.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Mapping\\ApplicationUser\\Queries\\GetUserByIdMapping.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Mapping\\ApplicationUser\\Queries\\GetUserByIdMapping.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T14:47:12.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationUserProfile.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Mapping\\ApplicationUser\\ApplicationUserProfile.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Mapping\\ApplicationUser\\ApplicationUserProfile.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Mapping\\ApplicationUser\\ApplicationUserProfile.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Mapping\\ApplicationUser\\ApplicationUserProfile.cs",
-              "ViewState": "AgIAAAEAAAAQmZmZmZkvwAkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T12:35:51.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetUserByIdQuery.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Models\\GetUserByIdQuery.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Models\\GetUserByIdQuery.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Models\\GetUserByIdQuery.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Models\\GetUserByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T14:25:16.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GetUserPaginationQuery.cs",
-              "DocumentMoniker": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Models\\GetUserPaginationQuery.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Models\\GetUserPaginationQuery.cs",
-              "ToolTip": "D:\\Backend .net\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Models\\GetUserPaginationQuery.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Features\\ApplicationUser\\Queries\\Models\\GetUserPaginationQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T11:39:11.896Z",
+              "WhenOpened": "2025-07-28T03:49:13.712Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 678,
+          "DockedHeight": 142,
           "SelectedChildIndex": -1,
           "Children": [
             {

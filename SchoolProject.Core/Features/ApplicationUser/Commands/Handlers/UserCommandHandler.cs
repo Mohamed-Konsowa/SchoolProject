@@ -10,7 +10,8 @@ using SchoolProject.Data.Entities.Identity;
 namespace SchoolProject.Core.Features.ApplicationUser.Commands.Handlers
 {
     public class UserCommandHandler : ResponseHandler,
-        IRequestHandler<AddUserCommand, Response<string>>
+        IRequestHandler<AddUserCommand, Response<string>>,
+        IRequestHandler<EditUserCommand, Response<string>>
     {
         #region Fields
         private readonly IMapper _mapper;
@@ -48,5 +49,20 @@ namespace SchoolProject.Core.Features.ApplicationUser.Commands.Handlers
 			//Sucess
 			return Created("");
 		}
+
+        public async Task<Response<string>> Handle(EditUserCommand request, CancellationToken cancellationToken)
+        {
+            var oldUser = await _userManager.FindByIdAsync(request.Id.ToString());
+            if (oldUser == null) 
+                return NotFound<string>(_stringLocalizer[SharedResourcesKeys.NotFound]);
+
+            var newUser = _mapper.Map(request, oldUser);
+            var updateResult = await _userManager.UpdateAsync(newUser);
+
+            if (!updateResult.Succeeded) 
+                return BadRequest<string>(_stringLocalizer[SharedResourcesKeys.UpdateFailed]);
+            
+            return Success((string)_stringLocalizer[SharedResourcesKeys.Updated]);
+        }
     }
 }
