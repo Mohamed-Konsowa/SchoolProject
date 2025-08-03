@@ -33,6 +33,7 @@ namespace SchoolProject.Data.AppMetaData
 			public const string GetById = Prefix + SignleRoute;
             public const string Edit = Prefix + "/Edit";
             public const string Delete = Prefix + SignleRoute;
+            public const string ChangePassword = Prefix + "/Change-Password";
         }
 
     }
