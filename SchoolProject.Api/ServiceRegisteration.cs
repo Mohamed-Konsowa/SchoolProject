@@ -6,7 +6,7 @@ namespace SchoolProject.Api
 {
     public static class ServiceRegisteration
     {
-        public static IServiceCollection AddServiceRegisteration(this IServiceCollection services)
+        public static IServiceCollection AddIdentityRegisteration(this IServiceCollection services)
         {
             services.AddIdentity<User, IdentityRole<int>>(option =>
             {
