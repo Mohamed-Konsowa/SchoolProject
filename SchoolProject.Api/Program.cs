@@ -33,8 +33,8 @@ namespace SchoolProject.Api
             builder.Services.AddInfrastructureDependencies()
                 .AddServiceDependencies()
                 .AddCoreDependencies()
-                .AddServiceRegisteration(builder.Configuration)
-                .AddIdentityRegisteration();
+                .AddIdentityRegisteration()
+                .AddServiceRegisteration(builder.Configuration);
             #endregion
 
             #region Localization

@@ -33,7 +33,7 @@ namespace SchoolProject.Service.Implementations
                 _jwtSettings.Issuer,
                 _jwtSettings.Audience,
                 claims,
-                expires: DateTime.Now.AddMinutes(5),
+                expires: DateTime.Now.AddDays(5),
                 signingCredentials: new SigningCredentials
                 (
                     new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_jwtSettings.Secret)),

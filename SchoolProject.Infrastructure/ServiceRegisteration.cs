@@ -60,7 +60,7 @@ namespace SchoolProject.Infrastructure
                     Description = "JWT Authorization header using the Bearer scheme (Example: 'Bearer 12345abcdef')",
                     Name = "Authorization",
                     In = ParameterLocation.Header,
-                    Type = SecuritySchemeType.ApiKey,
+                    Type = SecuritySchemeType.Http,
                     Scheme = JwtBearerDefaults.AuthenticationScheme
                 });
 
