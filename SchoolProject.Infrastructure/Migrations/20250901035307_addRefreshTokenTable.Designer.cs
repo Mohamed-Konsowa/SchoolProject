@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SchoolProject.Infrastructure.Context;
 
@@ -11,9 +12,11 @@ using SchoolProject.Infrastructure.Context;
 namespace SchoolProject.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250901035307_addRefreshTokenTable")]
+    partial class addRefreshTokenTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -297,10 +300,6 @@ namespace SchoolProject.Infrastructure.Migrations
                     b.Property<string>("JwtId")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("RefreshToken")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Token")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -530,7 +529,7 @@ namespace SchoolProject.Infrastructure.Migrations
             modelBuilder.Entity("SchoolProject.Data.Entities.Identity.UserRefreshToken", b =>
                 {
                     b.HasOne("SchoolProject.Data.Entities.Identity.User", "User")
-                        .WithMany("UserRefreshTokens")
+                        .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -611,11 +610,6 @@ namespace SchoolProject.Infrastructure.Migrations
                     b.Navigation("Instructors");
 
                     b.Navigation("Students");
-                });
-
-            modelBuilder.Entity("SchoolProject.Data.Entities.Identity.User", b =>
-                {
-                    b.Navigation("UserRefreshTokens");
                 });
 
             modelBuilder.Entity("SchoolProject.Data.Entities.Instructor", b =>

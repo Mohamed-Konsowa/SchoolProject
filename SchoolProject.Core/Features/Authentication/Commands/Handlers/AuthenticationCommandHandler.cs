@@ -5,12 +5,13 @@ using SchoolProject.Core.Bases;
 using SchoolProject.Core.Features.Authentication.Commands.Models;
 using SchoolProject.Core.Resources;
 using SchoolProject.Data.Entities.Identity;
+using SchoolProject.Data.Helpers;
 using SchoolProject.Service.Abstracts;
 
 namespace SchoolProject.Core.Features.Authentication.Commands.Handlers
 {
     public class AuthenticationCommandHandler : ResponseHandler,
-        IRequestHandler<SigninCommand, Response<string>>
+        IRequestHandler<SigninCommand, Response<JwtAuthResult>>
     {
         #region Fields
         private readonly IStringLocalizer<SharedResources> _stringLocalizer;
@@ -40,20 +41,20 @@ namespace SchoolProject.Core.Features.Authentication.Commands.Handlers
         #region Handle Functions
 
 
-        public async Task<Response<string>> Handle(SigninCommand request, CancellationToken cancellationToken)
+        public async Task<Response<JwtAuthResult>> Handle(SigninCommand request, CancellationToken cancellationToken)
         {
             var user = await _userManager.FindByNameAsync(request.UserName);
             
             if( user == null)
-                return BadRequest<string>(_stringLocalizer[SharedResourcesKeys.UserNameIsNotExist]);
+                return BadRequest<JwtAuthResult>(_stringLocalizer[SharedResourcesKeys.UserNameIsNotExist]);
             
             var signinRes = _signInManager.CheckPasswordSignInAsync(user, request.Password, false);
             if (!signinRes.IsCompletedSuccessfully)
-                return BadRequest<string>(_stringLocalizer[SharedResourcesKeys.PasswordNotCorrect]);
+                return BadRequest<JwtAuthResult>(_stringLocalizer[SharedResourcesKeys.PasswordNotCorrect]);
 
-            var token = await _authenticationService.GetJWTToken(user);
+            var result = await _authenticationService.GetJWTToken(user);
 
-            return Success(token);
+            return Success(result);
         }
 
         #endregion
