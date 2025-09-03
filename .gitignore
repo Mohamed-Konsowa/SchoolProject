@@ -52,3 +52,30 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Visual Studio specific
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio database/cache files
+*.db
+*.db-shm
+*.db-wal
+*.vsidx
+*.vscode/
+
+# Rider / JetBrains IDE
+.idea/
+
+# Backup & temp
+*.bak
+*.backup
+*.tmp
+*.temp
+*.log
+
+# Ensure not tracking generated files
+*.pdb
