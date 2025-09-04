@@ -31,7 +31,7 @@ namespace SchoolProject.Core.Bases
                 Meta = Meta
             };
         }
-        public Response<T> Unauthorized<T>(string Message = null)
+        public Response<T> Unauthorized<T>(string Message = null) 
         {
             return new Response<T>()
             {
