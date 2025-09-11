@@ -43,5 +43,11 @@ namespace SchoolProject.Data.AppMetaData
             public const string RefreshToken = Prefix + "/Refresh-Token";
             public const string ValidateToken = Prefix + "/Validate-Token";
         }
+
+        public static class Authorization
+        {
+            public const string Prefix = Rule + "Authorization";
+            public const string AddRole = Prefix + "/AddRole";
+        }
     }
 }
