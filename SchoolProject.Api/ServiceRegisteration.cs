@@ -8,7 +8,7 @@ namespace SchoolProject.Api
     {
         public static IServiceCollection AddIdentityRegisteration(this IServiceCollection services)
         {
-            services.AddIdentity<User, IdentityRole<int>>(option =>
+            services.AddIdentity<User, Role>(option =>
             {
                 // Password settings.
                 option.Password.RequireDigit = true;

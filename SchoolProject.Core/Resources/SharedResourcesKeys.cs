@@ -36,6 +36,6 @@ namespace SchoolProject.Core.Resources
         public const string RefreshTokenIsExpired = "RefreshTokenIsExpired";
         public const string TokenIsExpired = "TokenIsExpired";
 
-
+        public const string AddFailed = "AddFailed";
     }
 }
