@@ -8,7 +8,7 @@ namespace SchoolProject.Api.Controllers
 {
     public class AuthorizationController : AppControllerBase
     {
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [HttpPost(Router.Authorization.AddRole)]
         public async Task<IActionResult> AddRole(AddRoleCommand request)
         {
