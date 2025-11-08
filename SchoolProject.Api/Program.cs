@@ -1,10 +1,13 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using SchoolProject.Core;
 using SchoolProject.Core.Middleware;
+using SchoolProject.Data.Entities.Identity;
 using SchoolProject.Infrastructure;
 using SchoolProject.Infrastructure.Context;
+using SchoolProject.Infrastructure.Seeder;
 using SchoolProject.Service;
 using System.Globalization;
 
@@ -12,7 +15,7 @@ namespace SchoolProject.Api
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -74,12 +77,21 @@ namespace SchoolProject.Api
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
+            using (var scope = app.Services.CreateScope())
             {
-                app.UseSwagger();
-                app.UseSwaggerUI();
+                var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<Role>>();
+                var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
+
+                await RoleSeeder.SeedAsync(roleManager);
+                await UserSeeder.SeedAsync(userManager);
             }
+
+                // Configure the HTTP request pipeline.
+                if (app.Environment.IsDevelopment())
+                {
+                    app.UseSwagger();
+                    app.UseSwaggerUI();
+                }
 
             #region Localization Middleware
             var options = app.Services.GetService<IOptions<RequestLocalizationOptions>>();
