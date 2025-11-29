@@ -6,13 +6,19 @@ using SchoolProject.Data.AppMetaData;
 
 namespace SchoolProject.Api.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AuthorizationController : AppControllerBase
     {
-        [Authorize(Roles = "Admin")]
         [HttpPost(Router.Authorization.AddRole)]
-        public async Task<IActionResult> AddRole(AddRoleCommand request)
+        public async Task<IActionResult> AddRole([FromForm] AddRoleCommand request)
         {
             var response = await Mediator.Send(request);
+            return NewResult(response);
+        }
+        [HttpPost(Router.Authorization.Edit)]
+        public async Task<IActionResult> Edit([FromForm] EditRoleCommand command)
+        {
+            var response = await Mediator.Send(command);
             return NewResult(response);
         }
     }
