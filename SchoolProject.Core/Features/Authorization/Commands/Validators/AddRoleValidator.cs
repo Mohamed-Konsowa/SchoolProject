@@ -35,7 +35,7 @@ namespace SchoolProject.Core.Features.Authorization.Commands.Validators
         public void ApplyCustomValidationsRules()
         {
             RuleFor(x => x.RoleName)
-                .MustAsync(async (Key, CancellationToken) => !await _authorizationService.IsRoleExist(Key))
+                .MustAsync(async (Key, CancellationToken) => !await _authorizationService.IsRoleExistByName(Key))
                 .WithMessage(_stringLocalizer[SharedResourcesKeys.IsExist]);
         }
 
