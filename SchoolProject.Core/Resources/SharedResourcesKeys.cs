@@ -40,5 +40,6 @@ namespace SchoolProject.Core.Resources
 
         public const string RoleNotExist = "RoleNotExist";
         public const string RoleIsUsed = "RoleIsUsed";
+        public const string UserIsNotFound = "UserIsNotFound";
     }
 }
