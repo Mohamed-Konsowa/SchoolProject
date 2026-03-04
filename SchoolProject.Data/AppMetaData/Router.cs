@@ -53,6 +53,7 @@ namespace SchoolProject.Data.AppMetaData
             public const string RoleList = Prefix + "/Role-List";
             public const string GetRoleById = Prefix + "/Role-By-Id/{id}";
             public const string ManageUserRoles = Prefix + "/Manage-User-Roles/{userId}";
+            public const string UpdateUserRoles = Prefix + "/Update-User-Roles";
         }
     }
 }
