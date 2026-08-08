@@ -2,6 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using SchoolProject.Data.DTOs;
 using SchoolProject.Data.Entities.Identity;
+using SchoolProject.Data.Helpers;
+using SchoolProject.Data.Requests;
+using SchoolProject.Data.Results;
 using SchoolProject.Infrastructure.Context;
 using SchoolProject.Service.Abstracts;
 
@@ -92,7 +95,7 @@ namespace SchoolProject.Service.Implementations
             return await _roleManager.FindByIdAsync(id.ToString());
         }
 
-        public async Task<ManageUserRolesResult> GetManageUserRolesData(User user)
+        public async Task<ManageUserRolesResult> ManageUserRolesData(User user)
         {
             var response = new ManageUserRolesResult();
             var rolesList = new List<UserRoles>();
@@ -154,6 +157,33 @@ namespace SchoolProject.Service.Implementations
                 await transact.RollbackAsync();
                 return "FailedToUpdateUserRoles";
             }
+        }
+
+        public async Task<ManageUserClaimsResult> ManageUserClaimsData(User user)
+        {
+            var response = new ManageUserClaimsResult();
+            var usercliamsList = new List<UserClaims>();
+            response.UserId = user.Id;
+            //Get User Claims
+            var userClaims = await _userManager.GetClaimsAsync(user);
+
+            foreach (var claim in ClaimsStore.claims)
+            {
+                var userclaim = new UserClaims();
+                userclaim.Type = claim.Type;
+                if (userClaims.Any(x => x.Type == claim.Type))
+                {
+                    userclaim.Value = true;
+                }
+                else
+                {
+                    userclaim.Value = false;
+                }
+                usercliamsList.Add(userclaim);
+            }
+            response.userClaims = usercliamsList;
+            //return Result
+            return response;
         }
 
         #endregion
