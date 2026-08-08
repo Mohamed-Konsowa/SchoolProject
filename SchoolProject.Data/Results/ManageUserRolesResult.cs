@@ -1,5 +1,4 @@
-﻿
-namespace SchoolProject.Data.DTOs
+﻿namespace SchoolProject.Data.Results
 {
     public class ManageUserRolesResult
     {
