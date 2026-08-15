@@ -17,5 +17,6 @@ namespace SchoolProject.Service.Abstracts
         public Task<ManageUserRolesResult> ManageUserRolesData(User user);
         public Task<string> UpdateUserRoles(UpdateUserRolesRequest request);
         public Task<ManageUserClaimsResult> ManageUserClaimsData(User user);
+        public Task<string> UpdateUserClaims(UpdateUserClaimsRequest request);
     }
 }

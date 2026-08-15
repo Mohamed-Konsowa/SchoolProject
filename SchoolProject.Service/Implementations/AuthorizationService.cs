@@ -7,6 +7,7 @@ using SchoolProject.Data.Requests;
 using SchoolProject.Data.Results;
 using SchoolProject.Infrastructure.Context;
 using SchoolProject.Service.Abstracts;
+using System.Security.Claims;
 
 namespace SchoolProject.Service.Implementations
 {
@@ -184,6 +185,37 @@ namespace SchoolProject.Service.Implementations
             response.userClaims = usercliamsList;
             //return Result
             return response;
+        }
+
+        public async Task<string> UpdateUserClaims(UpdateUserClaimsRequest request)
+        {
+            var transact = await _dbContext.Database.BeginTransactionAsync();
+            try
+            {
+                var user = await _userManager.FindByIdAsync(request.UserId.ToString());
+                if (user == null)
+                {
+                    return "UserIsNull";
+                }
+                //remove old Claims
+                var userClaims = await _userManager.GetClaimsAsync(user);
+                var removeClaimsResult = await _userManager.RemoveClaimsAsync(user, userClaims);
+                if (!removeClaimsResult.Succeeded)
+                    return "FailedToRemoveOldClaims";
+                var claims = request.userClaims.Where(x => x.Value == true).Select(x => new Claim(x.Type, x.Value.ToString()));
+                
+                var addUserClaimResult = await _userManager.AddClaimsAsync(user, claims);
+                if (!addUserClaimResult.Succeeded)
+                    return "FailedToAddNewClaims";
+
+                await transact.CommitAsync();
+                return "Success";
+            }
+            catch (Exception ex)
+            {
+                await transact.RollbackAsync();
+                return "FailedToUpdateClaims";
+            }
         }
 
         #endregion
