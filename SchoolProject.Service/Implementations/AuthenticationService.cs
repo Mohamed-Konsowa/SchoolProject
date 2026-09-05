@@ -10,6 +10,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace SchoolProject.Service.Implementations
 {
@@ -60,7 +61,7 @@ namespace SchoolProject.Service.Implementations
         private async Task<(JwtSecurityToken, string)> GenerateJwtToken(User user)
         {
             var roles = await _userManager.GetRolesAsync(user);
-            var claims = GetClaims(user, roles.ToList());
+            var claims = await GetClaims(user);
 
             var jwtToken = new JwtSecurityToken
             (
@@ -97,8 +98,9 @@ namespace SchoolProject.Service.Implementations
                 return Convert.ToBase64String(randomNumber);
             }
         }
-        private List<Claim> GetClaims(User user, List<string> roles)
+        private async Task<List<Claim>> GetClaims(User user)
         {
+            var roles = await _userManager.GetRolesAsync(user);
             var claims = new List<Claim>()
             {
                 new Claim(ClaimTypes.Name, user.UserName),
@@ -111,6 +113,8 @@ namespace SchoolProject.Service.Implementations
             {
                 claims.Add(new Claim(ClaimTypes.Role, role));
             }
+            var userClaims = await _userManager.GetClaimsAsync(user);
+            claims.AddRange(userClaims);
             return claims;
         }
         public async Task<JwtAuthResult> GetRefreshToken(User user, JwtSecurityToken jwtToken, DateTime? expiryDate, string refreshToken)
